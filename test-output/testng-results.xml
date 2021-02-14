@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-13T16:59:47 IST" name="Default suite" finished-at="2021-02-13T16:59:55 IST" duration-ms="8022">
+    <groups>
+    </groups>
+    <test started-at="2021-02-13T16:59:47 IST" name="Default test" finished-at="2021-02-13T16:59:55 IST" duration-ms="8022">
+      <class name="examples.ExtentReporterNG">
+        <test-method is-config="true" signature="InitialSetup()[pri:0, instance:examples.ExtentReporterNG@212b5695]" started-at="2021-02-13T16:59:47 IST" name="InitialSetup" finished-at="2021-02-13T16:59:47 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialSetup -->
+        <test-method signature="test01()[pri:0, instance:examples.ExtentReporterNG@212b5695]" started-at="2021-02-13T16:59:47 IST" name="test01" finished-at="2021-02-13T16:59:54 IST" duration-ms="6675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:examples.ExtentReporterNG@212b5695]" started-at="2021-02-13T16:59:54 IST" name="tearDown" finished-at="2021-02-13T16:59:55 IST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- examples.ExtentReporterNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
