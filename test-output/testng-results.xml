@@ -1,72 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-14T08:06:51 IST" name="Default suite" finished-at="2021-02-14T08:07:01 IST" duration-ms="9954">
+  <suite started-at="2021-02-16T11:42:36 IST" name="Default suite" finished-at="2021-02-16T11:42:54 IST" duration-ms="18650">
     <groups>
     </groups>
-    <test started-at="2021-02-14T08:06:51 IST" name="Default test" finished-at="2021-02-14T08:07:01 IST" duration-ms="9954">
-      <class name="examples.CaptureScreenshot">
-        <test-method is-config="true" signature="InitialSetup()[pri:0, instance:examples.CaptureScreenshot@15aab8c6]" started-at="2021-02-14T08:06:51 IST" name="InitialSetup" finished-at="2021-02-14T08:06:57 IST" duration-ms="5352" status="PASS">
+    <test started-at="2021-02-16T11:42:36 IST" name="Default test" finished-at="2021-02-16T11:42:54 IST" duration-ms="18650">
+      <class name="examples.ExerciceCalender">
+        <test-method is-config="true" signature="InitialSetup()[pri:0, instance:examples.ExerciceCalender@7a419da4]" started-at="2021-02-16T11:42:36 IST" name="InitialSetup" finished-at="2021-02-16T11:42:44 IST" duration-ms="8248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitialSetup -->
-        <test-method signature="test01()[pri:0, instance:examples.CaptureScreenshot@15aab8c6]" started-at="2021-02-14T08:06:57 IST" name="test01" finished-at="2021-02-14T08:06:59 IST" duration-ms="2028" status="PASS">
+        <test-method signature="Calender()[pri:0, instance:examples.ExerciceCalender@7a419da4]" started-at="2021-02-16T11:42:44 IST" name="Calender" finished-at="2021-02-16T11:42:54 IST" duration-ms="10090" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test01 -->
-        <test-method signature="test02()[pri:0, instance:examples.CaptureScreenshot@15aab8c6]" started-at="2021-02-14T08:06:59 IST" name="test02" finished-at="2021-02-14T08:07:00 IST" duration-ms="1472" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Downloads] but found [[[ChromeDriver: chrome on WINDOWS (56d99f831cacf723ce6e945f174dd521)] -> xpath: //h1[text()='Downloads']]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Downloads] but found [[[ChromeDriver: chrome on WINDOWS (56d99f831cacf723ce6e945f174dd521)] -> xpath: //h1[text()='Downloads']]]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:617)
-at examples.CaptureScreenshot.test02(CaptureScreenshot.java:40)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test02 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:examples.CaptureScreenshot@15aab8c6]" started-at="2021-02-14T08:07:01 IST" name="tearDown" finished-at="2021-02-14T08:07:01 IST" duration-ms="740" status="PASS">
+        </test-method> <!-- Calender -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:examples.ExerciceCalender@7a419da4]" started-at="2021-02-16T11:42:54 IST" name="tearDown" finished-at="2021-02-16T11:42:54 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- examples.CaptureScreenshot -->
+      </class> <!-- examples.ExerciceCalender -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
