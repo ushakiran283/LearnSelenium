@@ -11,7 +11,7 @@ import com.aventstack.extentreports.Status;
 
 import utility.ExtentReporter;
 
-public class ListenersNG extends CaptureScreenshot implements ITestListener {
+public class ListenersNG extends CaptureScreenshotTest implements ITestListener {
 
 	ExtentReporter ex;
 	ExtentTest test;

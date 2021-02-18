@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="examples.ExerciceCalender">
+      <class name="excercise.ExcerciceOnKeyboardActions">
         <methods>
-          <include name="Calender"/>
           <include name="InitialSetup"/>
           <include name="tearDown"/>
+          <include name="keyboard"/>
         </methods>
-      </class> <!-- examples.ExerciceCalender -->
+      </class> <!-- excercise.ExcerciceOnKeyboardActions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
